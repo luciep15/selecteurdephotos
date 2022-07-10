@@ -1,0 +1,66 @@
+
+body
+{
+    text-align: center;
+}
+
+em
+{
+    color: red;
+    font-weight: bold;
+}
+
+header{
+    padding-top:1%;
+    width:80%;
+    margin:0 auto;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+}
+.consigne{
+    font-size: 1.2em;
+}
+main{
+    width:75%;
+    margin:0 auto;
+    border:1px solid black;
+    box-shadow:1px 1px 12px black ;
+    border-radius: 20px;
+}
+.photo-list
+{
+    /* structure */
+    width: 800px;
+    margin:0 auto;
+    padding:1% 0;
+
+    /* presentation */
+    list-style-type: none;
+}
+img{
+    vertical-align: middle;
+}
+.photo-list li
+{
+    /* structure */
+    display: inline-block;
+    margin: 1em;
+    padding: 0.5em;
+
+    /* presentation */
+    border-radius: 8px;
+    transition: background-color 0.5s;
+}
+.photo-list li:hover
+{
+    background-color: silver;
+}
+.photo-list li.selected
+{
+    background-color: forestgreen;
+}
+#total{
+    font-size: 1.2em;
+}
